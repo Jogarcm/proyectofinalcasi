@@ -1,0 +1,24 @@
+.nosotros{
+   display: grid;
+   background: rgba(0, 0, 0, .6);
+   box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.7);
+   height: 400px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   margin: auto;
+   width: 100%;
+
+
+   & h1{
+    color: #fff;
+    align-items: center;
+   }
+
+   & .grupo{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-decoration:underline;
+   }
+}

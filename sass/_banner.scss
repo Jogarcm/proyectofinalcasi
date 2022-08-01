@@ -1,0 +1,46 @@
+.banner-text{
+    padding: 0 30px;
+    margin-top: 187px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+
+    & h2{
+        font-size: 40px;
+        margin-bottom: 30px;
+        text-decoration:underline rgb(0, 126, 152);
+    }
+
+    & h1{
+        font-size: 50px;
+        color: rgb(44, 188, 186);
+    }
+}
+
+.button1{
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color: rgba(124, 0, 146, 0.595);
+    color: #fff;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: #fff;
+        color: rgb(0, 0, 0);
+        transition: .5s;
+    }
+}
+
+.button2{
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color: rgba(124, 0, 146, 0.595);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+    &:hover{
+        background-color: #fff;
+        color: rgba(0, 0, 0,);
+        transition: .5s;
+    }
+}
